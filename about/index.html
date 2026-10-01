@@ -12,9 +12,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic|Noto Serif SC:400,400italic,700,700italic&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic|Noto Serif SC:400,400italic,700,700italic&display=swap" media="print" onload="this.media='all'">
     <link rel="preload" href="//at.alicdn.com/t/c/font_4552607_ex15nbittbh.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    
-<link rel="stylesheet" href="/css/loader.css">
-
     <meta name="description" content="关于本站这里是 云深不知处，由 from-zhx 维护的个人博客。  此页面为占位内容，你可以在 source&#x2F;about&#x2F;index.md 中编辑自己的介绍。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="关于">
@@ -43,45 +40,7 @@
 <meta name="generator" content="Hexo 7.3.0"></head>
 
   <body>
-      <div id='loader'>
-    <div class="loading-left-bg loading-bg"></div>
-    <div class="loading-right-bg loading-bg"></div>
-    <div class="spinner-box">
-      <div class="loading-taichi rotate">
-          <img src="/images/cloud-icon.png" alt="loading" />
-      </div>
-      <div class="loading-word">少女祈祷中...</div>
-    </div>
-  </div>
-  <script>
-    var time = null;
-    var loaderEl = document.getElementById('loader');
-    var startLoading = () => {
-      time = Date.now();
-      loaderEl.classList.remove("loading");
-    }
-    var hideLoader = () => {
-      document.body.style.overflow = 'auto';
-      loader.classList.add('loading');
-    };
-
-    var endLoading = () => {
-      if (!time) {
-        hideLoader();
-      } else {
-        if (Date.now() - time > 500) {
-          time = null;
-          hideLoader();
-        } else {
-          setTimeout(endLoading, 500 - (Date.now() - time));
-          time = null;
-        }
-      }
-    }
-    window.addEventListener('DOMContentLoaded', endLoading);
-    loaderEl.addEventListener('click', endLoading);
-  </script>
-<div id="copy-tooltip"></div>
+    <div id="copy-tooltip"></div>
 <div id="heatmap-tooltip"></div>
 
 
