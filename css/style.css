@@ -43,9 +43,9 @@
   --highlight-deletion-bg: #ffeef0;
   --highlight-addition: #22863a;
   --highlight-addition-bg: #f0fff4;
-  --cursor-default: url("../images/cursor/reimu-cursor-default.png"), auto;
-  --cursor-pointer: url("../images/cursor/reimu-cursor-pointer.png"), pointer;
-  --cursor-text: url("../images/cursor/reimu-cursor-text.png"), text;
+  --cursor-default: url("../images/cursor/reimu-cursor.cur"), auto;
+  --cursor-pointer: url("../images/cursor/reimu-cursor.cur"), pointer;
+  --cursor-text: url("../images/cursor/reimu-cursor.cur"), text;
   --footer-icon: url("../images/cloud.svg");
   --sponsor-icon: url("../images/cloud.svg");
   --top-icon: url("../images/cloud.svg");
