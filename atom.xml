@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>from-zhx</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://from-zhx.github.io/</id>
+  <link href="https://from-zhx.github.io/" rel="alternate"/>
+  <link href="https://from-zhx.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, from-zhx</rights>
+  <subtitle>ropz</subtitle>
+  <title>云深不知处</title>
+  <updated>2026-10-01T10:32:30.227Z</updated>
+  <entry>
+    <author>
+      <name>from-zhx</name>
+    </author>
+    <category term="ropz" scheme="https://from-zhx.github.io/tags/ropz/"/>
+    <content>
+      <![CDATA[<p>第一篇文章，以此记录，为未来的自己加油：from_zhx&lt;3</p>]]>
+    </content>
+    <id>https://from-zhx.github.io/2026/10/01/main-zhx/</id>
+    <link href="https://from-zhx.github.io/2026/10/01/main-zhx/"/>
+    <published>2026-10-01T08:17:02.000Z</published>
+    <summary>
+      <![CDATA[<p>第一篇文章，以此记录，为未来的自己加油：from_zhx&lt;3</p>]]>
+    </summary>
+    <title>first-zhx</title>
+    <updated>2026-10-01T10:32:30.227Z</updated>
+  </entry>
+</feed>
