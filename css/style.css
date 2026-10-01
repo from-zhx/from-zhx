@@ -1,12 +1,12 @@
 :root {
-  --red-0: #ff0000;
-  --red-1: #ff5252;
-  --red-2: #ff7c7c;
-  --red-3: #ffafaf;
-  --red-4: #ffd0d0;
-  --red-5: #ffecec;
-  --red-5-5: #fff3f3;
-  --red-6: #fff7f7;
+  --red-0: #2f80ed;
+  --red-1: #3b82f6;
+  --red-2: #63a3f5;
+  --red-3: #a8cdf7;
+  --red-4: #d3e7fc;
+  --red-5: #e8f3fe;
+  --red-5-5: #f0f7ff;
+  --red-6: #f5faff;
   --grey-9: #888;
   --grey-7: var(--color-default);
   --color-archive-year: #000;
@@ -24,8 +24,8 @@
   --color-meta-shadow: var(--red-6);
   --color-hover-shadow: rgba(120,120,120,0.15);
   --color-h2-after: var(--red-1);
-  --color-red-6-shadow: rgba(255, 78, 78, 0.6);
-  --color-red-3-shadow: rgba(255, 78, 78, 0.3);
+  --color-red-6-shadow: rgba(59, 130, 246, 0.6);
+  --color-red-3-shadow: rgba(59, 130, 246, 0.3);
   --highlight-nav: #f5f5f5;
   --highlight-scrollbar: #d6d6d6;
   --highlight-background: #fdfdfd;
@@ -57,20 +57,20 @@
 }
 [data-theme='dark']:root {
   --red-0: var(--red-1);
-  --red-4: rgba(255, 208, 208, 0.5);
-  --red-5: rgba(255,228,228,0.15);
-  --red-5-5: rgba(255,236,236,0.05);
-  --red-6: rgba(255, 243, 243, 0.2);
+  --red-4: rgba(211, 231, 252, 0.5);
+  --red-5: rgba(232,243,254,0.15);
+  --red-5-5: rgba(240,247,255,0.05);
+  --red-6: rgba(245,250,255,0.2);
   --color-archive-year: #999;
   --color-default: #999;
   --color-border: var(--red-5);
-  --color-background: #21252b;
+  --color-background: #0e1f33;
   --color-code-background: rgba(232,232,232,0.1);
-  --color-header-background: #222;
-  --color-footer-background: #21252b;
-  --color-mobile-nav-background: #21252b;
-  --color-wrap: #272b30;
-  --color-h2-border: #47474a;
+  --color-header-background: #0e1f33;
+  --color-footer-background: #0e1f33;
+  --color-mobile-nav-background: #0e1f33;
+  --color-wrap: #16283e;
+  --color-h2-border: #2c4159;
   --color-meta-shadow: rgba(0,0,0,0.2);
   --color-hover-shadow: rgba(0,0,0,0.2);
   --highlight-nav: #222830;
@@ -93,6 +93,9 @@
 }
 [data-theme='dark']:root img {
   filter: brightness(70%);
+}
+[data-theme='dark']:root #header img {
+  filter: none;
 }
 [data-theme='dark']:root .pswp__img {
   opacity: 1;
