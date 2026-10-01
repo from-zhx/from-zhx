@@ -92,7 +92,7 @@
   --highlight-addition-bg: #04260f;
 }
 [data-theme='dark']:root img {
-  filter: brightness(70%);
+  filter: none;
 }
 [data-theme='dark']:root #header img {
   filter: none;
@@ -104,7 +104,7 @@
 }
 [data-theme='dark']:root img.lazyloaded {
   opacity: 1;
-  animation: blur-darken 0.8s ease-in-out forwards;
+  animation: blur 0.8s ease-in-out forwards;
 }
 body [data-aos='fade-up'] {
   transform: translate3d(0, 30px, 0);
