@@ -61,18 +61,18 @@
   --red-5: rgba(232,243,254,0.15);
   --red-5-5: rgba(240,247,255,0.05);
   --red-6: rgba(245,250,255,0.2);
-  --color-archive-year: #999;
-  --color-default: #999;
+  --color-archive-year: #567;
+  --color-default: #3a4a5c;
   --color-border: var(--red-5);
-  --color-background: #0e1f33;
-  --color-code-background: rgba(232,232,232,0.1);
-  --color-header-background: #0e1f33;
-  --color-footer-background: #0e1f33;
-  --color-mobile-nav-background: #0e1f33;
-  --color-wrap: #16283e;
-  --color-h2-border: #2c4159;
-  --color-meta-shadow: rgba(0,0,0,0.2);
-  --color-hover-shadow: rgba(0,0,0,0.2);
+  --color-background: #b0ccec;
+  --color-code-background: #e3edf9;
+  --color-header-background: #a6c6e9;
+  --color-footer-background: #a6c6e9;
+  --color-mobile-nav-background: #a6c6e9;
+  --color-wrap: #c4d9f2;
+  --color-h2-border: #cfe3f7;
+  --color-meta-shadow: rgba(110,140,180,0.28);
+  --color-hover-shadow: rgba(110,140,180,0.2);
   --highlight-nav: #222830;
   --highlight-scrollbar: #454d59;
   --highlight-background: #1e2027;
@@ -797,7 +797,7 @@ button {
 [data-theme='dark'] .main-nav-link,
 [data-theme='dark'] .nav-icon,
 [data-theme='dark'] .main-nav-link-wrap {
-  color: var(--red-2);
+  color: #2e6ba8;
 }
 .main-nav-link-wrap {
   padding: 0 15px;
